@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#heading {
+    text-align: center;
+}
+
+.players-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.player-0 {
+    background-color: pink;
+}
+.player {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    width: 400px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.player-1 {
+    background-color: palevioletred;
+margin-left: 20px;
+}
+.dice-img {
+  width: 80px;
+}
+.hidden {
+    display: none;
+}
+.btn {
+    text-align: center;
+
+}
+.player-winner {
+    background-color: rgb(232, 238, 232);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.player--active {
+    background-color: rgb(223, 198, 168);
+    width: 500px;
+}
+.btns {
+    padding: 10px;
+    background-color: rgb(159, 199, 199);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
